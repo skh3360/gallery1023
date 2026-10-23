@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>갤러리 웹페이지 실습</title>
+  <link href="./cs/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+  <link href="./cs/style.css" rel="stylesheet">
+  <script src="./js/jquery-4.0.0.js"></script>
+  <script src="./js/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+  <script src="./js/script.js" defer></script>
+  <script src="https://kit.fontawesome.com/c6aeb77bea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      <h1>
+        강아지
+        <br>
+        종류
+      </h1>
+
+      <div class="line">
+
+      </div>
+
+      <p>집에서 키울수 있는 종</p>
+
+    </div>
+
+    <ul class="sns">
+      <li>
+        <a href="#">
+          <i class="fa-brands fa-square-twitter"></i>
+          <span>Twitter</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="fa-brands fa-square-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-square-envelope"></i>
+          <span>E-mail</span>
+        </a>
+      </li>
+    </ul>
+
+  </header>
+
+  <div class="main">
+    <ul class="btns">
+      <li data-filter=".even">EVEN</li>
+      <li data-filter=".odd">ODD</li>
+      <li class="active">ALL</li>
+    </ul>
+
+    <section>
+      <div class="box odd">
+        <a href="imgs/허스키.jpg" data-fancybox="gallery">
+          <img src="./imgs/허스키.jpg" alt="">
+          <p>허스키</p>
+          <p>중형 크기의 썰매견</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/푸들.jpg" data-fancybox="gallery">
+          <img src="./imgs/푸들.jpg" alt="">
+          <p>푸들</p>
+          <p>똑똑하고 눈치가 빠름</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/셰퍼드.jpg" data-fancybox="gallery">
+          <img src="./imgs/셰퍼드.jpg" alt="">
+          <p>셰퍼드</p>
+          <p>시골에서 집지키기로 키우는 경우가 있다</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/말라뮤트.jpg" data-fancybox="gallery">
+          <img src="./imgs/말라뮤트.jpg" alt="">
+          <p>말라뮤트</p>
+          <p>주택에서나 키울수 있다</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/도베르만.png" data-fancybox="gallery">
+          <img src="./imgs/도베르만.png" alt="">
+          <p>도베르만</p>
+          <p>훈련은 필수적으로 집지키기에 좋음</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/골든 리트리버.jpg" data-fancybox="gallery">
+          <img src="./imgs/골든 리트리버.jpg" alt="">
+          <p>골든 리트리버</p>
+          <p>성격이 온순하다</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/래브라도.jpg" data-fancybox="gallery">
+          <img src="./imgs/래브라도.jpg" alt="">
+          <p>래브라도</p>
+          <p>인내심이 강하고 외향적이다</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/그레이하운드.jpg" data-fancybox="gallery">
+          <img src="./imgs/그레이하운드.jpg" alt="">
+          <p>그레이하운드</p>
+          <p>경주견으로 속도가 매우 빠르다</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/웰시코기.jpg" data-fancybox="gallery">
+          <img src="./imgs/웰시코기.jpg" alt="">
+          <p>웰시코기</p>
+          <p>귀여움의 대명사 짧은 팔다리로 유명하다</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/사모예드.jpg" data-fancybox="gallery">
+          <img src="./imgs/사모예드.jpg" alt="">
+          <p>사모예드</p>
+          <p>털빠짐이 많음</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/시바견.jpg" data-fancybox="gallery">
+          <img src="./imgs/시바견.jpg" alt="">
+          <p>시바견</p>
+          <p>영리한편</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/tmvlcm.jpg" data-fancybox="gallery">
+          <img src="./imgs/tmvlcm.jpg" alt="">
+          <p>스피츠</p>
+          <p>털빠짐이 많다</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/슈나우저.jpg" data-fancybox="gallery">
+          <img src="./imgs/슈나우저.jpg" alt="">
+          <p>슈나우저</p>
+          <p>총명하고 겁이 없다</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/닥스훈트.jpg" data-fancybox="gallery">
+          <img src="./imgs/닥스훈트.jpg" alt="">
+          <p>닥스훈트</p>
+          <p>짧은 팔다리로 유명하다. 웰시보다 슬림한편</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/비숑.jpg" data-fancybox="gallery">
+          <img src="./imgs/비숑.jpg" alt="">
+          <p>비숑</p>
+          <p>털빠짐이 적다</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/시츄.jpg" data-fancybox="gallery">
+          <img src="./imgs/시츄.jpg" alt="">
+          <p>시츄</p>
+          <p>친근하고 영리함</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/요쿠.jpg" data-fancybox="gallery">
+          <img src="./imgs/요쿠.jpg" alt="">
+          <p>오쿠</p>
+          <p>활동량이 많아서 충족을 시켜주어야함</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/vhap.jpg" data-fancybox="gallery">
+          <img src="./imgs/vhap.jpg" alt="">
+          <p>포메</p>
+          <p>털빠짐이 많다</p>
+        </a>
+      </div>
+
+      <div class="box odd">
+        <a href="imgs/말티즈.jpg" data-fancybox="gallery">
+          <img src="./imgs/말티즈.jpg" alt="">
+          <p>말티즈</p>
+          <p>인기가 가장 많다</p>
+        </a>
+      </div>
+
+      <div class="box even">
+        <a href="imgs/치와와.jpg" data-fancybox="gallery">
+          <img src="./imgs/치와와.jpg" alt="">
+          <p>치와와</p>
+          <p>성격이 안좋은 경우가 많다.</p>
+        </a>
+      </div>
+
+    </section>
+
+
+
+  </div>
+</body>
+
+</html>
